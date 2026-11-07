@@ -418,7 +418,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
-    vendor/xiaomi/mondrian/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/mondrian/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
@@ -785,22 +784,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.supermoon \
     com.xiaomi.plugin.swjpegencode \
     com.xiaomi.plugin.tsskinbeautifier \
-    camx.device@3.2-impl \
-    camx.device@3.3-impl \
-    camx.device@3.4-ext-impl \
-    camx.device@3.4-impl \
-    camx.device@3.5-ext-impl \
-    camx.device@3.5-impl \
-    camx.device@3.6-ext-impl \
-    camx.device@3.6-impl \
-    camx.device@3.7-impl \
-    camx.provider@2.4-external \
-    camx.provider@2.4-impl \
-    camx.provider@2.4-legacy \
-    camx.provider@2.5-external \
-    camx.provider@2.5-legacy \
-    camx.provider@2.6-legacy \
-    camx.provider@2.7-legacy \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
@@ -903,7 +886,6 @@ PRODUCT_PACKAGES += \
     libcamxfdengine \
     libcamxhwnodecontext \
     libcamxifestriping \
-    libcamximageformatutils \
     libcamxqsatalgo \
     libcamxsettingsmanager \
     libcamxstatscore \
@@ -1007,7 +989,6 @@ PRODUCT_PACKAGES += \
     libxmi_slow_motion_mein \
     libxmi_slow_motion_triger \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
-    vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
@@ -1096,5 +1077,4 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_weak_refs_so \
     vendor.xiaomi.hardware.quickcamera@1.0-service.xml \
     batterysecret \
-    vendor.qti.camera.provider@2.7-service_64 \
     vendor.xiaomi.hardware.quickcamera@1.0-service
